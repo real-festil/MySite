@@ -1,0 +1,87 @@
+.Skills {
+    display: grid;
+    grid-template-areas:
+    "caption caption"
+    "skill skill";
+    justify-content: space-evenly;
+    gap:15px 5px;
+}
+
+.Caption {
+    grid-area: caption;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+
+.Projects {
+    display: grid;
+    grid-template-areas:
+    "caption"
+    "project";
+    justify-content: space-evenly;
+    text-align: center;
+    gap:25px 5px;
+}
+
+.About {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+    "caption"
+    "about";
+}
+
+
+@media screen and (min-width: 500px) {
+    .Skills {
+        justify-content: space-around;
+        gap:35px 5px;
+    }
+
+    .Caption {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Skills {
+        grid-template-areas:
+        "caption caption caption caption"
+        "skill skill skill skill";
+        justify-content: space-around;
+        gap:35px 5px;
+    }
+
+    .Projects {
+        display: grid;
+        grid-template-areas:
+        "caption caption caption"
+        "project project project";
+        justify-content: space-evenly;
+        text-align: center;
+        gap:25px 5px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .Caption {
+        font-size: 70px;
+        border-bottom: 4px solid black;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .Caption {
+        font-size: 90px;
+        border-bottom: 5px solid black;
+    }
+}
+
+@media screen and (min-width: 3565px) {
+    .Caption {
+        font-size: 110px;
+        border-bottom: 6px solid black;
+    }
+}

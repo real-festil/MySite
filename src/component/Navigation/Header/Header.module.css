@@ -1,0 +1,99 @@
+.Header {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    text-align: center;
+    background-image: url("../../../assets/images/backgroundHeader.jfif");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+    color: white;
+    position: relative;
+}
+
+.Header::before {
+    content: '';
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    background-color: black;
+    opacity: .4;
+}
+
+.Header h1 {
+    margin: auto;
+    font-size: 46px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Header p {
+    font-size: 24px;
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+@media screen and (min-width: 500px) {
+    .Header h1 {
+        font-size: 64px;
+    }
+
+    .Header p  {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .Header h1 {
+        font-size: 88px;
+    }
+
+    .Header p  {
+        font-size: 54px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .Header h1 {
+        font-size: 110px;
+    }
+
+    .Header p  {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .Header h1 {
+        font-size: 150px;
+    }
+
+    .Header p  {
+        font-size: 80px;
+    }
+}
+
+@media screen and (min-width: 3656px) {
+    .Header h1 {
+        font-size: 190px;
+    }
+
+    .Header p  {
+        font-size: 110px;
+    }
+}

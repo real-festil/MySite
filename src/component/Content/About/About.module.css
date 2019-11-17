@@ -1,0 +1,70 @@
+.About {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+.ContactInfo {
+    margin: auto;
+}
+
+.ContactInfo span {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.ContactInfo span a {
+    border-bottom: 2px solid black;
+}
+
+@media screen and (min-width: 500px) {
+    .About {
+        font-size: 24px;
+    }
+
+    .About h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .About {
+        font-size: 28px;
+    }
+
+    .About h2 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .About {
+        font-size: 36px;
+    }
+
+    .About h2 {
+        font-size: 46px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .About {
+        font-size: 46px;
+    }
+
+    .About h2 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 3565px) {
+    .About {
+        font-size: 66px;
+    }
+
+    .About h2 {
+        font-size: 80px;
+    }
+}
